@@ -12,3 +12,30 @@ scrape_configs:
   - job_name: 'slave2-node'
     static_configs:
       - targets: ['10.0.0.3:9100']
+  - job_name: 'msftTracker'
+    static_configs:
+      - targets: ['10.0.0.1:2112']
+  - job_name: 'aaplTracker'
+    static_configs:
+      - targets: ['10.0.0.1:2113']
+  - job_name: 'spyTracker'
+    static_configs:
+      - targets: ['10.0.0.1:2114']
+  - job_name: 'nflxTracker'
+    static_configs:
+      - targets: ['10.0.0.1:2115']
+  - job_name: 'uberTracker'
+    static_configs:
+      - targets: ['10.0.0.1:2116']
+  - job_name: 'teslaTracker'
+    static_configs:
+      - targets: ['10.0.0.1:2117']
+  - job_name: 'amazonTracker'
+    static_configs:
+      - targets: ['10.0.0.1:2118']
+  - job_name: 'googleTracker'
+    static_configs:
+      - targets: ['10.0.0.1:2119']
+  - job_name: 'zoomTracker'
+    static_configs:
+      - targets: ['10.0.0.1:2120']
